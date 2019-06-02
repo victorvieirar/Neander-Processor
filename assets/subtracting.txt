@@ -1,0 +1,10 @@
+dados:
+1 2
+2 1
+3 0
+code:
+LDA 2
+NOT
+ADD 1
+STA 3
+HLT
