@@ -39,8 +39,8 @@ public class PC {
                 else if (regs.getRDM().toUpperCase().contains("OR")) { PE = 10; opULA = 5; }
                 else if (regs.getRDM().toUpperCase().contains("AND")) { PE = 10; opULA = 4; }
                 else if (regs.getRDM().toUpperCase().contains("JMP")) PE = 14;
-                else if (regs.getRDM().toUpperCase().contains("JN")) { PE = 15; jc = 0; }
-                else if (regs.getRDM().toUpperCase().contains("JZ")) { PE = 15; jc = 1; }
+                else if (regs.getRDM().toUpperCase().contains("N")) { PE = 15; jc = 0; }
+                else if (regs.getRDM().toUpperCase().contains("Z")) { PE = 15; jc = 1; }
                 break;
 
             case 4:
@@ -178,11 +178,15 @@ public class PC {
             case 15:
                 if (jc == 0) {
                     if (ula.isN()) {
-                        LCP(Integer.parseInt(regs.getRDM()));
+                        LCP(cp);
+                    } else {
+                        LCP(cp+2);
                     }
                 } else {
                     if (ula.isZ()) {
-                        LCP(Integer.parseInt(regs.getRDM()));
+                        LCP(cp);
+                    } else {
+                        LCP(cp+2);
                     }
                 }
                 break;

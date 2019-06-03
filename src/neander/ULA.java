@@ -56,15 +56,7 @@ public class ULA {
         return Z;
     }
 
-    public void setZ(boolean z) {
-        Z = z;
-    }
-
     public boolean isN() {
         return N;
-    }
-
-    public void setN(boolean n) {
-        N = n;
     }
 }

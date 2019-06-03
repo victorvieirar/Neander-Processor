@@ -1,3 +1,4 @@
+dados:
 1 2
 2 1
 3 0
@@ -35,256 +36,249 @@ code:
 lda 2
 not
 add 1
-N (true)
-lda 1 
-N (false)
+N true
+lda 1
+N false
 lda 2
 sta 33
 lda 3
-not 
+not
 add 33
-N (true)
+N true
 lda 33
-N (false)
+N false
 lda 3
 sta 33
 lda 4
-not 
+not
 add 33
-N (true)
+N true
 lda 33
-N (false)
+N false
 lda 4
 sta 33
 lda 5
-not 
+not
 add 33
-N (true)
+N true
 lda 33
-N (false)
+N false
 lda 5
 sta 33
 lda 6
-not 
+not
 add 33
-N (true)
+N true
 lda 33
-N (false)
+N false
 lda 6
 sta 33
 lda 7
-not 
+not
 add 33
-N (true)
+N true
 lda 33
-N (false)
+N false
 lda 7
 sta 33
 lda 8
-not 
+not
 add 33
-N (true)
+N true
 lda 33
-N (false)
+N false
 lda 8
 sta 33
 lda 9
 not
 add 33
-N (true)
+N true
 lda 33
-N (false)
+N false
 lda 9
 sta 33
 lda 10
-not 
+not
 add 33
-N (true)
+N true
 lda 33
-N (false)
+N false
 lda 10
 sta 33
 lda 11
-not 
+not
 add 33
-N (true)
+N true
 lda 33
-N (false)
+N false
 lda 11
 sta 33
 lda 12
-not 
+not
 add 33
-N (true)
+N true
 lda 33
-N (false)
+N false
 lda 12
 sta 33
 lda 13
-not 
+not
 add 33
-N (true)
+N true
 lda 33
-N (false)
+N false
 lda 13
 sta 33
 lda 14
-not 
+not
 add 33
-N (true)
+N true
 lda 33
-N (false)
+N false
 lda 14
 sta 33
 lda 15
-not 
+not
 add 33
-N (true)
+N true
 lda 33
-N (false)
+N false
 lda 15
 sta 33
 lda 16
-not 
+not
 add 33
-N (true)
+N true
 lda 33
-N (false)
+N false
 lda 16
 sta 33
 lda 17
-not 
+not
 add 33
-N (true)
+N true
 lda 33
-N (false)
+N false
 lda 17
 sta 33
 lda 18
-not 
+not
 add 33
-N (true)
+N true
 lda 33
-N (false)
+N false
 lda 18
 sta 33
 lda 19
-not 
+not
 add 33
-N (true)
+N true
 lda 33
-N (false)
+N false
 lda 19
 sta 33
 lda 20
-not 
+not
 add 33
-N (true)
+N true
 lda 33
-N (false)
+N false
 lda 20
 sta 33
 lda 21
-not 
+not
 add 33
-N (true)
+N true
 lda 33
-N (false)
+N false
 lda 21
 sta 33
 lda 22
 not
 add 33
-N (true)
+N true
 lda 33
-N (false)
+N false
 lda 22
 sta 33
 lda 23
-not 
+not
 add 33
-N (true)
+N true
 lda 33
-N (false)
+N false
 lda 23
 sta 33
 lda 24
-not 
+not
 add 33
-N (true)
+N true
 lda 33
-N (false)
+N false
 lda 24
 sta 33
 lda 25
-not 
+not
 add 33
-N (true)
+N true
 lda 33
-N (false)
+N false
 lda 25
 sta 35
-
 lda 26
-	not 
+	not
 add 33
-N (true)
+N true
 lda 33
-N (false)
+N false
 lda 26
 sta 33
-
 lda 27
-	not 
+	not
 add 33
-N (true)
+N true
 lda 33
-N (false)
+N false
 lda 27
 sta 33
-
 lda 28
-	not 
+	not
 add 33
-N (true)
+N true
 lda 33
-N (false)
+N false
 lda 28
 sta 33
-
 lda 29
-	not 
+	not
 add 33
-N (true)
+N true
 lda 33
-N (false)
+N false
 lda 29
 sta 33
-
 lda 30
-	not 
+	not
 add 33
-N (true)
+N true
 lda 33
-N (false)
+N false
 lda 30
 sta 33
-
 lda 31
-	not 
+	not
 add 33
-N (true)
+N true
 lda 33
-N (false)
+N false
 lda 31
 sta 33
-
 lda 32
-	not 
+	not
 add 33
-N (true)
+N true
 lda 33
-N (false)
+N false
 lda 32
 sta 33
-htl
+hlt

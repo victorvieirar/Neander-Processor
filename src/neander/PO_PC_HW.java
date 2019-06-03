@@ -22,7 +22,7 @@ public class PO_PC_HW {
                 path = "assets/subtracting.txt";
                 break;
             case 3:
-                path = "assets/q3.txt";
+                path = "assets/vector.txt";
                 break;
             default:
                 break;
@@ -42,13 +42,12 @@ public class PO_PC_HW {
 
         int count = 0;
 
-        while(true) {
+        do {
             count++;
             pc.FS();
             pc.FTE();
             pc.updateState();
-            if(pc.isLastState()) break;
-        }
+        } while(!pc.isLastState());
 
         System.out.println("Cycles: " + count);
     }

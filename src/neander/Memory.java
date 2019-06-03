@@ -17,8 +17,8 @@ public class Memory {
 
         for(int x = 0; x < vars.size(); x += 2) {
             this.data[vars.get(x)] = vars.get(x+1);
-            System.out.println(this.data[vars.get(x)]);
         }
+
         System.out.println(commands);
     }
 
