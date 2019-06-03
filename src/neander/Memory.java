@@ -25,4 +25,17 @@ public class Memory {
     public void  registerData(int index, int value) { this.data[index] = value; }
     public String getCommand(int index) { return this.commands.get(index); }
     public int getValue(int index) { return this.data[index]; }
+
+    public int contains(String s) {
+        commands.remove(commands.indexOf(s));
+        return commands.indexOf(s)+1;
+    }
+
+    public void showMemory() {
+        for(int x = 0; x < data.length; x++) {
+            if(data[x]!= null) {
+                System.out.println("memory["+x+"]="+ data[x]);
+            }
+        }
+    }
 }

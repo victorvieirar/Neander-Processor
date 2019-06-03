@@ -22,6 +22,8 @@ public class PC {
     public void FTE () {
         switch (EA) {
             case 0:
+                memory.showMemory();
+
                 PE = 1;
                 break;
 
